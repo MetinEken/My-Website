@@ -1,6 +1,103 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/closeup-tablet-woman-s-hands.jpg); /* Resmin yolunu doğru şekilde güncelleyin */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;    
+    color: white; /* Yazı rengini belirleyin, arka plan resmine uygun bir renk seçin */
+    opacity: 1;
+}
+.fotoDiv{
+width: 500px;
+height: 400px;
+background-color: white;
+margin-left: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+color: black;
+opacity: 1;
+box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
+}
 
 h1 {
-    color: red;
-    background-color: green;
+    color: black;    
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 55px;
+    margin-top: 30px;
+}
+
+.NavButton{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: none; 
+
+}
+.NavButton:hover{
+    cursor: pointer;
+}
+
+
+.fotoDiv2{
+    width: 50%;
+   
+   
+}
+.fotoDiv1{
+    width: 50%;
+    margin-left: 15px;
+   
+}
+
+.fotoDivImg{
+    width: 250px;
+}
+
+.contentDiv{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.contentDiv1{
+width: 295px;
+height: 170px;
+background-color: white;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLgDW1I1sP5LAW7sMnEf9bp87BFhFAJAq6g&usqp=CAU');
+background-repeat: no-repeat;
+box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
+
+}
+.contentDiv2{
+    width: 295px;
+height: 170px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
+    background-image: url(./assets//Stories.png);
+    background-size: cover;
+}
+
+.footer{
+background-color: black;
+height: 50px;
+margin-bottom: 15px;
+text-align: center;
+padding: 10px;
+}
+
+.contentDiv1H3{
+color: white;
+margin-left: 10px;
 }
