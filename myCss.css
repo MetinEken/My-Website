@@ -11,17 +11,22 @@ body {
     opacity: 1;
 }
 .fotoDiv{
-width: 500px;
-height: 400px;
-background-color: white;
-margin-left: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 100px;
-color: black;
-opacity: 1;
-box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
+        width: 500px;
+        height: 400px;
+        background-color: white;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        color: black;
+        opacity: 1;
+        box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
+        border-radius:15px ;
+        -webkit-border-radius:15px ;
+        -moz-border-radius:15px ;
+        -ms-border-radius:15px ;
+        -o-border-radius:15px ;
 }
 
 h1 {
@@ -72,21 +77,30 @@ h1 {
     margin-bottom: 200px;
 }
 .contentDiv1{
-width: 295px;
-height: 170px;
-background-color: white;
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLgDW1I1sP5LAW7sMnEf9bp87BFhFAJAq6g&usqp=CAU');
-background-repeat: no-repeat;
-box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
-
+      width: 295px;
+      height: 170px;
+      background-color: white;
+      background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLgDW1I1sP5LAW7sMnEf9bp87BFhFAJAq6g&usqp=CAU');
+      background-repeat: no-repeat;
+      box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
+      border-radius:10px ;
+      -webkit-border-radius:10px ;
+      -moz-border-radius:10px ;
+      -ms-border-radius:10px ;
+      -o-border-radius:10px ;
 }
 .contentDiv2{
     width: 295px;
-height: 170px;
+    height: 170px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(1, 1, 1, 0.9);
     background-image: url(./assets//Stories.png);
     background-size: cover;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
 }
 
 .footer{
@@ -100,4 +114,15 @@ padding: 10px;
 .contentDiv1H3{
 color: white;
 margin-left: 10px;
+}
+
+.footerButton{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: none; 
+    margin-top: 15px;
+}
+.footerButton:hover{
+    cursor: pointer;
 }
