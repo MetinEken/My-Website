@@ -11,8 +11,8 @@ body {
     opacity: 1;
 }
 .fotoDiv{
-        width: 500px;
-        height: 400px;
+        width: 550px;
+        height: 450px;
         background-color: white;
         margin-left: 60px;
         display: flex;
@@ -70,7 +70,7 @@ h1 {
 }
 
 .contentDiv{
-    margin-top: 150px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
